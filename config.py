@@ -13,7 +13,8 @@ CLOSING_TIME = time(22, 0)
 SESSION_DURATION = timedelta(minutes=90)
 START_INTERVAL_MINUTES = 30  # sessions may start on the hour or half hour
 
-PRICE_PER_PERSON_INDIVIDUAL = 30_000  # UGX per person, per 1.5 h session
+PRICE_PER_PERSON_INDIVIDUAL = 30_000  # UGX per person, per 1.5 h session (training fee)
+COACH_FEE_PER_PERSON = 10_000  # UGX extra per person when the session has a coach
 PRICE_FULL_COURT = 150_000  # UGX per court, per 1.5 h booking
 
 # Individual sessions (coached, or a player with a sparring partner) hold at
