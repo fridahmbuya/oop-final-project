@@ -12,6 +12,8 @@ class InvalidTimeError(BookingError):
 class CourtUnavailableError(BookingError):
     """No court is free for the requested slot."""
 
+class CoachUnavailableError(BookingError):
+    """Every suitable coach is busy and there is no shared session left to join."""
 
 class SessionFullError(BookingError):
     """The shared session already has the maximum number of players."""
